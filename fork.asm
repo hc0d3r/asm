@@ -1,7 +1,7 @@
 ; Coded by MMxM
 ; linux x86_64
 ; sys_fork() example
-; [mmxm@hc0d3r asm]$ nasm -f elf64 -g fork.asm;ld -o fork fork.o
+; [mmxm@hc0d3r asm]$ nasm -f elf64 fork.asm;ld -o fork fork.o
 ; [mmxm@hc0d3r asm]$ ./fork
 ; [*] parent process PID => 15709
 ; [+] sys_fork() ok ! PID => 15710
