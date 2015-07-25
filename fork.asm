@@ -72,7 +72,7 @@ fork_successfu:
 
   call getpid
 
-  xor rsi, rsi
+  xor rdi, rdi
   call exit
 
 write_err:
