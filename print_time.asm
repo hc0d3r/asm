@@ -82,12 +82,8 @@ _start:
   mov eax, [dword hours]
   div ebx
 
-  nop
-
   add al, '0'
   add dl, '0'
-
-  nop
 
   mov [time_str+1], al
   mov [time_str+2], dl
