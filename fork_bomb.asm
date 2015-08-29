@@ -10,4 +10,4 @@ _start:
    syscall
 
    sub rcx, 7 ; the rip is copied to rcx and r11, after execute a syscall
-   jmp rcx ; decreasing 7 from rcx = location of (xor rax, rax), then jump
+   jmp rcx ; decrease rcx per 7 = location of (xor rax, rax), then jump
